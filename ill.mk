@@ -26,7 +26,7 @@ $(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 
 # bootanimation
 PRODUCT_COPY_FILES += \
-        vendor/illusion/bootanimation/Illusion480x480.zip:system/media/bootanimation.zip
+        vendor/illusion/bootanimation/480x800.zip:system/media/bootanimation.zip
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
